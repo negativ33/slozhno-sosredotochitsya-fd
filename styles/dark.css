@@ -7,15 +7,15 @@
 :root.theme-dark {
   --accent-color: #ff0070;
   --bg-color: #000028;
-  --bg-image: url(/images/cover-image-dark.png);
-  --h1-color: #db00ff;
-  --h2-color: #ff0070;
+  --bg-image: url(../images/cover-image-dark.png);
+  --title-color: #db00ff;
+  --section-title-color: #ff0070;
   --bg-accent-color: #ff0070;
   --text-accent-color: #000028;
-  --main-text-color: #f1b2ce;
-  --button-color: #ff0070;
-  --button-hover: #ff007066;
-  --footer-h2-color: #db00ff;
-  --footer-title-shadow: #ff0070;
+  --text-color: #f1b2ce;
+  --btn-default-background: #ff0070;
+  --btn-default-hover-backgroud: #ff007066;
+  --section-accent-title-color: #db00ff;
+  --title-shadow: #ff0070;
   --decoration-zone: #ff0070;
 }
