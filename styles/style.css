@@ -23,7 +23,7 @@
 }
 
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   right: 10px;
@@ -34,7 +34,7 @@
 }
 
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 10px;
   bottom: 10px;
@@ -58,7 +58,7 @@
 }
 
 .header__rec::after {
-  content: '';
+  content: "";
   border-radius: 50%;
   inline-size: 9px;
   block-size: 9px;
@@ -78,20 +78,17 @@
   line-height: 23.4px;
   font-size: 18px;
   color: var(--text-accent-color);
-  
 }
 
 .header__theme-menu {
   display: grid;
   justify-content: end;
-
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
 .header__theme-menu-button_active {
@@ -132,7 +129,6 @@
   display: grid;
   gap: 20px;
   grid-template-rows: minmax(min-content, max-content);
-
 }
 
 .section__list {
@@ -200,7 +196,7 @@
   inline-size: 100%;
   block-size: 100%;
 }
- .footer {
+.footer {
   position: relative;
   display: grid;
   align-items: center;
@@ -208,18 +204,16 @@
   block-size: 100vh;
   min-block-size: 668px;
   margin-block-start: 40px;
+}
 
- }
-
- .footer__title {
+.footer__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--footer-h2-color);
   text-shadow: 2px 2px 0 var(--footer-title-shadow);
   line-height: 95.7%;
- 
- }
+}
 
- @media (width >= 768px) {
+@media (width >= 768px) {
   .header {
     padding-inline: 20px;
     padding-block: 20px;
@@ -228,7 +222,6 @@
   .decorated-zone::before {
     top: 20px;
     right: 20px;
-
   }
 
   .decorated-zone::after {
@@ -267,7 +260,7 @@
   .section__list {
     grid-column: 2;
   }
-  
+
   .section__title-special {
     grid-column: 1 / -1;
   }
@@ -299,16 +292,15 @@
   .image_street {
     grid-area: street;
   }
-  
+
   .images__gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     grid-template-areas:
-    "sunset sunset ice-cream"
-    "tape books ice-cream"
-    "tape street street";
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
     gap: 20px;
-  
   }
 
   .footer__title {
@@ -331,7 +323,7 @@
   .section__title {
     max-inline-size: 315px;
   }
-  
+
   .section__list-special {
     grid-template-columns: repeat(3, 1fr);
   }
