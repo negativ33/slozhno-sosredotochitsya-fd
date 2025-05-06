@@ -26,10 +26,6 @@
   --footer-title-shadow: #FF0070;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 .theme-light .header__rec {
   display: none;
 }
@@ -51,7 +47,7 @@
   --footer-title-shadow: #FF0070;    
   }
 
-  .theme-auto .header__rec {
-    display: none;
-  }
+.theme-auto .header__rec {
+  display: none;
+}
 }
