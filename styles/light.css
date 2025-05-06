@@ -41,8 +41,8 @@
   --button-hover: #32312D66; 
   --footer-h2-color: #FFC2E6;
   --footer-title-shadow: #FF0070;    
-}
-.theme-auto .header__rec {
-  display: none;
-}
+  }
+  .theme-auto .header__rec {
+    display: none;
+  }
 }
